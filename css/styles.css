@@ -1,0 +1,70 @@
+body {
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  transform: translateY(20%);
+}
+
+.background {
+  background-color: rgb(255, 255, 255, 0.4);
+  border-radius: 20px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 400px;
+}
+
+.login {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  background-color: rgb(255, 255, 255, 0.5);
+  color: black;
+  width: 200px;
+  height: 25px;
+  outline: none;
+  border-radius: 10px;
+  text-indent: 10px;
+}
+
+button {
+  height: 30px;
+  width: 120px;
+  border-radius: 5px;
+  background-color: rgba(146, 31, 31, 0.5);
+  color: white;
+}
+button:active {
+  transform: translateY(10%);
+  background-color: rgb(255, 255, 255, 0.5);
+  color: black;
+}
+
+.register {
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+}
+
+.register-input {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.four {
+  display: flex;
+  justify-self: center;
+}
